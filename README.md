@@ -23,3 +23,6 @@ Kubernetes, monitoring and Jenkins.
 Dharal Naik
 
 Run `scripts/deploy.sh` on a server to deploy.
+
+## License
+MIT
