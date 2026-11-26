@@ -21,3 +21,5 @@ Kubernetes, monitoring and Jenkins.
 
 ## Author
 Dharal Naik
+
+Run `scripts/deploy.sh` on a server to deploy.
