@@ -25,4 +25,4 @@ def read_item(item_id: int, q: str | None = None):
 
 @app.get("/version")
 def version():
-    return {"version": "1.0.0", "env": os.getenv("APP_ENV", "unknown")}
+    return {"version": "1.1.0", "env": os.getenv("APP_ENV", "unknown")}
