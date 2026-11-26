@@ -1,6 +1,7 @@
 """ShipIt: a tiny API we'll deploy everywhere this week."""
 import os
 import socket
+import sys
 from datetime import datetime, timezone
 
 from fastapi import FastAPI
@@ -26,3 +27,12 @@ def read_item(item_id: int, q: str | None = None):
 @app.get("/version")
 def version():
     return {"version": "1.1.0", "env": os.getenv("APP_ENV", "unknown")}
+
+
+@app.get("/info")
+def info():
+    return {
+        "host": socket.gethostname(),
+        "env": os.getenv("APP_ENV", "unknown"),
+        "python": sys.version.split()[0],
+    }
