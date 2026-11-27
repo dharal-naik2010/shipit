@@ -1,7 +1,7 @@
 # ShipIt
 
 ShipIt: from laptop to the cloud, deployed anywhere automatically.
-to practise the full DevOps toolchain: Linux, Git, Docker, CI/CD, Terraform,
+Built to practise the full DevOps toolchain: Linux, Git, Docker, CI/CD, Terraform,
 Kubernetes, monitoring and Jenkins.
 
 ## Endpoints
