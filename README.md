@@ -1,6 +1,6 @@
 # ShipIt
 
-ShipIt: deploy anywhere, automatically.
+ShipIt: from laptop to the cloud, deployed anywhere automatically.
 to practise the full DevOps toolchain: Linux, Git, Docker, CI/CD, Terraform,
 Kubernetes, monitoring and Jenkins.
 
