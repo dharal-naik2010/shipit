@@ -1,6 +1,6 @@
 # ShipIt
 
-A small FastAPI app taken from laptop to production on AWS and Azure,
+ShipIt: deploy anywhere, automatically.
 to practise the full DevOps toolchain: Linux, Git, Docker, CI/CD, Terraform,
 Kubernetes, monitoring and Jenkins.
 
